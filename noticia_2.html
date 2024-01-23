@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Bleisure">
+    <link rel="icon" href="assets/images/logob.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Bleisure - Agencia de Turismo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+  </head>
+
+
+<body>
+
+   
+
+   <!-- ***** Header Area Start ***** -->
+   <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 navbar">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    
+                      <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="logo">
+                        <img src="assets/images/logo_escrito_blanco.png" alt="logo" class="logo2"> 
+                      </a>
+
+                    <div class="menu">
+                      <ul class="nav">
+                          <li><a href="index.html" class="active">Home</a></li>
+                          <li><a href="nosotros.html">Nosotros</a></li>
+                          <li><a href="#services">Servicios</a></li>
+                          <li><a href="#destinos">Destinos</a></li> 
+                          <li><a href="#contacto">Contacto</a></li> 
+                      </ul>   
+                      
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                  </div> 
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+  <section class="meetings-page" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="meeting-single-item">
+                <div class="thumb">
+                  <div class="date">
+                    <h6>Ene <span>24</span></h6>
+                  </div>
+                  <a href="#"><img src="assets/images/postnew.png" alt=""></a>
+                </div>
+                <div class="down-content">
+                  <a href="#"><h4>Dolar Turista para Viajes Internacionales🤞✈️</h4></a>
+                  <p>
+                    Si viajas al exterior tenes que saber que el dólar turista o tarjeta quedó actualmente con los siguientes valores:</p>
+
+                    <p>💵 Dólar Oficial $820
+                      💲 Impuesto País 30%
+                      💲 Impuesto Ganancias 30%</p>
+                    
+                    <p lass="description" style="font-weight: bold;">Total Dólar Turista $1.312 💳</p>
+                    
+                    <br>
+                  <h4 class="description" style="font-weight: bold;">PD.: No te preocupes, con Bleisure las promociones seguirán presentes😌</h4>
+                  <br>
+                  <br>  
+                  <h5>#bleisure #turismo #dolar #dolartarjeta #agencia #viajes #internacionales #viajar #travel #dolarturismo #novedades #news #noticias #bleisurenews</h5>
+
+                  
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="main-button-red">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright © 2023 <span>Bleisure - Agencia de Turismo.</span> Rafaela, Santa Fe, Argentina.</p>
+  </footer>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
+          e.preventDefault();
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+
+
+  </body>
+
+</html>

@@ -163,7 +163,7 @@ body {
 .main-button-red a {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #000c3d;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -815,7 +815,7 @@ banner
 }
 
 .main-banner .caption h2 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 20px;
   font-size: 36px;
   text-transform: uppercase;

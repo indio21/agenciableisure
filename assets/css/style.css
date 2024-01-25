@@ -176,16 +176,25 @@ body {
   opacity: 0.9;
 }
 
+.item-button {
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
 .main-button-yellow a {
-  font-size: 13px;
+  font-size: 20px;
   color: #fff;
   background-color: #f5a425;
   padding: 12px 30px;
-  display: inline-block;
+  display: inline-block; 
   border-radius: 22px;
   font-weight: 500;
-  text-transform: uppercase;
   transition: all .3s;
+
 }
 
 .main-button-yellow a:hover {
@@ -899,13 +908,13 @@ services
 .services .item h4 {
   margin-top: 25px;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
 }
 
 .services .item p {
   color: #fff;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .services .owl-nav {
@@ -922,6 +931,8 @@ services
   outline: none;
   position: absolute;
   left: -80px;
+  opacity: 1;
+  transition: all .5s;
 }
 
 .services .owl-nav .owl-prev span,
@@ -943,10 +954,7 @@ services
   line-height: 50px;
 }
 
-.services .owl-nav .owl-prev {
-  opacity: 1;
-  transition: all .5s;
-}
+
 
 .services .owl-nav .owl-prev:hover {
   opacity: 0.9;
@@ -1288,7 +1296,7 @@ section.our-courses2 {
 
 .our-courses .item .down-content h4 {
   padding: 25px;
-  font-size: 18px;
+  font-size: 16px;
   color: #1f272b;
   text-align: center; 
   border-bottom: 1px solid #eee;

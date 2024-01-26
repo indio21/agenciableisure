@@ -1670,6 +1670,12 @@ footer p {
   border-radius: 5px;
 }
 
+.datafiscal {
+  width: 40px;
+  height: 60px;
+  border-radius: 2px;
+}
+
 .footer-position2 {
   text-align: center; 
 }

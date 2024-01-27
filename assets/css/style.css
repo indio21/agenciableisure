@@ -784,15 +784,52 @@ banner
   height: 90vh;
   overflow: hidden;
   margin-bottom: 0px;
+  background-image: url(../images/fondobluemin.jpg);
 }
 
 #bg-video {
-    min-width: 100%;
+    /* min-width: 100%;
     min-height: 100vh;
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 100vh; */
+    min-width: 100vh;
+    max-width: 100vh;
+    min-height: 12vh;
+    max-height: 12vh;
     object-fit: cover;
     z-index: -1;
+margin-top: 7vh;
+margin-left: 150vh;
+}
+
+#bg-video2 {
+  /* min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh; */
+  min-width: 100vh;
+  max-width: 100vh;
+  min-height: 12vh;
+  max-height: 12vh;
+  object-fit: cover;
+  z-index: -1;
+margin-top: 5vh;
+margin-left: 140vh;
+}
+
+#bg-video3 {
+  /* min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh; */
+  min-width: 110vh;
+  max-width: 110vh;
+  min-height: 12vh;
+  max-height: 12vh;
+  object-fit: cover;
+  z-index: -1;
+margin-top: 5vh;
+margin-left: 120vh;
 }
 
 #bg-video::-webkit-media-controls {
@@ -801,7 +838,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(31,39,43,0.75);
+    /* background-color: rgba(31,39,43,0.75); */
     top: 0;
     left: 0;
     bottom: 0;
@@ -899,8 +936,13 @@ services
   text-align: center;
   color: #fff;
   padding: 40px;
-  height: 217px;;
+  height: 217px;
 }
+
+.services .item:hover {
+  box-shadow: 0px 0px 30px rgba(255, 226, 226, 0.8)!important;
+}
+
 
 .services .item1 {
   background-image: url(../images/femme.jpg); 
@@ -1153,7 +1195,7 @@ section.apply-now {
 }
 
 section.apply-now2 {
-  background-image: url(../images/fondo3.jpg);
+  background-color: white;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;

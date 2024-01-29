@@ -53,6 +53,7 @@ html[xmlns] .clearfix {
 
 * html .clearfix {
   height: 1%;
+
 }
 
 ul, li {
@@ -69,7 +70,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #ffffff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -1280,12 +1281,30 @@ section.apply-now .item p {
 }
 
 /*Pantalla*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .accordion-head {
     padding: 1rem;
     font-size: 1.2rem;
   }
+
+  section.apply-now2 {
+    margin-bottom: 35px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+    margin-top: 0px;
+  }
+
+  .accordions2 {
+    margin-left: 15px;
+
+  }
+
+
 }
+
+
+
+
 .accordion-head .icon {
   float: right;
   transition: transform 200ms ease-in-out;
@@ -1309,6 +1328,7 @@ section.apply-now .item p {
 }
 
 
+
 /* 
 ---------------------------------------------
 courses
@@ -1321,8 +1341,9 @@ section.our-courses {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 160px;
+  padding-top: 100px;
   padding-bottom: 80px;
+  margin-top: 60px;
 }
 
 section.our-courses2 {
@@ -2049,11 +2070,12 @@ responsive
     padding-top:50px;
     display: flex;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
     text-align: center;
   }
 
+  section.our-courses {
+    padding-top: 0px;
+  }
 
 }
 
@@ -2107,7 +2129,7 @@ responsive
   }
 
   .section-heading {
-    padding-top: 160px;
+    padding-top: 125px;
     margin-left:4vh;
   }
 
@@ -2194,7 +2216,7 @@ responsive
   }
 
   .services {
-    margin-top: 60px;
+    margin-top: -30px;
   }
 
   section.upcoming-meetings {

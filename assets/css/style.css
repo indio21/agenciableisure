@@ -2083,7 +2083,7 @@ responsive
 
   .section-heading {
     padding-top: 160px;
-    margin-left:6vh;
+    margin-left:4vh;
   }
 
   .section-heading h2{
@@ -2215,7 +2215,7 @@ responsive
     color: #1f272b;
   }
 
-  #bg-video2, #bg-video3 {
+  #bg-video2, #bg-video3{
     display: none;
   }
 

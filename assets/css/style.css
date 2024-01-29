@@ -2021,7 +2021,7 @@ responsive
 --------------------------------------------- 
 */
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .services .owl-nav .owl-next{
     right: -30px;
   }
@@ -2051,7 +2051,7 @@ responsive
   }
 }
 
-@media (max-width: 550px)  {
+@media screen and (max-width: 550px)  {
   .logo {
     display: flex;
     flex-direction: row;
@@ -2115,17 +2115,44 @@ responsive
   }
 
   iframe {
-    max-width: 30vh;
-    max-height: 30vh;
+    max-width: 55vh;
+    max-height: 55vh;
   }
 
+  .main-banner {
+    height: 90vh;
+  }
+
+}
+
+@media screen and (max-width: 350px)  {
   .main-banner {
     height: 120vh;
   }
 
+  .main-banner .caption {
+    top: 30% !important;
+  }
 
+  .logo img {
+    width: 15px;
+    height: 30px;
+  }
 
+  .logo .logo2{
+    width: 100px;
+    height: 30px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+    padding-top: 25px;
+  }
 }
+
 
 @media (max-width: 1024px) {
   .services .owl-nav .owl-next{

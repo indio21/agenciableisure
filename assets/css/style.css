@@ -234,7 +234,7 @@ header {
 }
 
 .sub-header {
-  background-color: rgb(17,31,51);
+  background-color: rgb(0, 16, 37);
   position: relative;
   z-index: 1111;
 }
@@ -300,7 +300,7 @@ header {
 }
 
 .header-area {
-  background-color: rgb(17,31,51,0.8);
+  background-color: rgb(17,31,51);
   position: sticky;
   top: 0;
   left: 0;
@@ -905,7 +905,7 @@ margin-left: 120vh;
     flex-wrap: wrap;
     align-content: center;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 16, 37);
     color: white;
     padding: 5px;
     gap:1px;
@@ -1680,7 +1680,7 @@ footer {
   flex-wrap: wrap;
   align-content: center;
   width: 100%;
-  background-color: black;
+  background-color: rgb(0, 16, 37);
   color: white;
   padding: 5px;
   gap:1px;
@@ -2036,7 +2036,7 @@ responsive
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 724px) {
   .services .owl-nav .owl-next{
     right: -70px;
   }
@@ -2051,19 +2051,80 @@ responsive
   }
 }
 
-@media (max-width: 1024px) {
-  .services .owl-nav .owl-next{
-    right: -30px;
+@media (max-width: 450px)  {
+  .logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+    padding-top: 15px;
   }
-  .services .owl-nav .owl-prev{
-    left: -25px;
+
+  .logo img {
+    width: 25px;
+    height: 50px;
   }
-  .our-courses .owl-nav .owl-next{
-    right: -30px;
+
+  .logo .logo2{
+    width: 150px;
+    height: 50px;
   }
-  .our-courses .owl-nav .owl-prev{
-    left: -25px;
+
+  .header-area .logo {
+    margin-left: 0px;
   }
+
+  .header-area .main-nav .menu-trigger:hover {
+    color: white;
+  }
+
+  #bg-video, #bg-video1, #bg-video2, #bg-video3 {
+
+    max-height: 25vh;  
+    max-width: 20vh;
+    /* max-width: 1vh;
+    min-height: 2vh;
+    max-height: 2vh;
+    object-fit: cover;
+    z-index: -1; 
+    display: none; */
+    margin-top:240px; 
+    margin-left: 0px;
+  } 
+
+  #bg-video2, #bg-video3 {
+    display: none;
+  }
+
+  .main-banner .caption {
+    top: 40% !important;
+  }
+
+  .section-heading {
+    padding-top: 160px;
+    margin-left:6vh;
+  }
+
+  .section-heading h2{
+    padding-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  .pagos {
+    gap:35px;
+  }
+
+  iframe {
+    max-width: 60vh;
+    max-height: 60vh;
+  }
+
+  .main-banner {
+    height: 75vh;
+  }
+
+
+
 }
 
 @media (max-width: 1024px) {

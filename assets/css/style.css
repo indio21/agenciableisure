@@ -831,6 +831,18 @@ margin-left: 120vh;
   position: absolute;
   top: 35%;
   transform: translateY(-50%);
+
+}
+
+.row-caption {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  padding-top: 40vh;
+  text-align: center;
 }
 
 .main-banner .caption h6 {
@@ -2030,6 +2042,19 @@ responsive
   .our-courses .owl-nav .owl-prev{
     left: -65px;
   }
+
+  .row-caption {
+    width: 350px;
+    padding-bottom: 30px;
+    padding-top:50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+  }
+
+
 }
 
 @media screen and (max-width: 550px)  {

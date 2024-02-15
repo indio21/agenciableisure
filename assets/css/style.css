@@ -184,24 +184,21 @@ body {
 }
 
 .section-heading {
-  width: 105%!important;
-  
+  width: 100%!important;
+  text-align: center;
 }
 
 .section-heading h2 {
   line-height: 40px;
-  margin-top: 0px;
-  margin-bottom: 50px; 
-  padding-bottom: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
-  padding-top: 20px;
   border-bottom: 1px solid rgba(250,250,250,0.15);
   background-color: rgba(43, 87, 153, 0.288);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 36px;
   font-weight: 700;
-  margin-left: -40px;
-  /* text-transform: uppercase; */
   color: #fff;
 }
 
@@ -763,7 +760,7 @@ banner
 .main-banner {
   position: relative;
   /* max-height: 100%; */
-  height: 90vh;
+  height: 800px;
   overflow: hidden;
   margin-bottom: 0px;
   background-image: url(../images/fondobluemin.jpg);
@@ -774,10 +771,10 @@ banner
     min-height: 100vh;
     max-width: 100%;
     max-height: 100vh; */
-    min-width: 100vh;
-    max-width: 100vh;
-    min-height: 12vh;
-    max-height: 12vh;
+    /* min-width: 58vh;
+    max-width: 58vh; */
+    min-height: 70vh;
+    max-height: 70vh;
     object-fit: cover;
     z-index: -1;
 margin-top: 7vh;
@@ -830,7 +827,7 @@ margin-left: 120vh;
 
 .main-banner .caption {
   position: absolute;
-  top: 35%;
+  top: 28%;
   transform: translateY(-50%);
 
 }
@@ -842,8 +839,9 @@ margin-left: 120vh;
   align-items: center;
   justify-content: center;
   bottom: 0;
-  padding-top: 40vh;
+  /* padding-top: 10vh; */
   text-align: center;
+  margin-top: 120px;
 }
 
 .main-banner .caption h6 {
@@ -916,7 +914,7 @@ services
 */
 
 .services {
-  margin-top: -65px;
+  margin-top: 60px; 
   position: absolute;
   width: 100%;
 }
@@ -934,7 +932,7 @@ services
 }
 
 .services .item:hover {
-  box-shadow: 0px 0px 30px rgba(255, 226, 226, 0.8)!important;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8)!important;
 }
 
 
@@ -1336,14 +1334,14 @@ courses
 */
 
 section.our-courses {
-  background-image: url(../images/fondo2.jpg);
+  background-image: url(../images/fondopromo.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 80px;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 section.our-courses2 {
@@ -1718,6 +1716,22 @@ footer p {
   padding-bottom: 30px;
   align-content: center;
 /* text-align: center; */
+}
+
+.whatsapp-button {
+  position: fixed;
+  width: 80px; /* Ajusta el tamaño del botón */
+  height: 80px; /* Ajusta el tamaño del botón */
+  bottom: 40px; /* Distancia desde el borde inferior */
+  right: 40px; /* Distancia desde el borde derecho */
+  padding: 10px;
+  z-index: 1000; /* Asegura que el botón sea visible sobre otros elementos */
+}
+
+.whatsapp-button img {
+  width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+  height: auto;
+  border-radius: 50%; /* Opcional: para bordes redondeados */
 }
 
 .img-footer {

@@ -14,6 +14,7 @@ reset
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
@@ -149,7 +150,9 @@ body {
 }
 
 .main-button-red a:hover {
-  opacity: 0.9;
+  opacity: 0.9; 
+  box-shadow: 2px 2px 10px rgba(255, 255, 255);
+
 }
 
 .item-button {
@@ -175,6 +178,7 @@ body {
 
 .main-button-yellow a:hover {
   opacity: 0.9;
+  box-shadow: 1px 2px 10px rgb(240, 253, 49);
 }
 
 .section-heading {
@@ -283,7 +287,8 @@ header {
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
-  box-shadow: 0px 0px 10px rgba(255, 226, 226, 0.4)!important;
+  filter: drop-shadow(0px 4px 5px rgba(0,0,0,0.6));
+}
 }
 
 .header-area2 {
@@ -1240,10 +1245,70 @@ section.apply-now .item p {
   gap:25px;
   padding: 20px;
   height: 430px;
+
+}
+
+.accordions3 {
+  border-radius: 20px;
+  background-color: #fff;
+  /* margin-left: 45px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  padding: 20px;
+  height: 370px;
+  color:  #000c3d;
+}
+
+.accordions4 {
+  border-radius: 20px;
+  background-color: #fff;
+  /* margin-left: 45px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  padding: 20px;
+  height: 520px;
+  color:  #000c3d;
+}
+
+.accordions5 {
+  border-radius: 20px;
+  background-color: #fff;
+  /* margin-left: 45px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  padding: 20px;
+  height: 370px;
+  color:  #000c3d;
 }
 
 #text-about {
   padding-top: 30px;
+}
+
+#text-experience {
+  color:  #000c3d!important;
+  font-size: 36px;
+}
+
+#atencion {
+  display: flex;
+  flex-direction: column;
+  gap:3px;
+
+}
+
+.accordions3 h1,.accordions4 h1,.accordions5 h1{
+  font-weight: 700;
+}
+
+.accordions3 p,.accordions4 p,.accordions5 p{
+  font-size: 18px;
 }
 
 

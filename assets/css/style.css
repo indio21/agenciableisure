@@ -2236,7 +2236,7 @@ responsive
   }
 
   .main-banner {
-    height: 90vh;
+    height: 150vh!important;
   }
 
 }

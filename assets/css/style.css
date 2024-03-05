@@ -179,7 +179,7 @@ body {
 
 .section-heading {
   width: 100%!important;
-  text-align: center;
+  text-align: left;
 }
 
 .section-heading h2 {
@@ -1054,7 +1054,7 @@ section.upcoming-meetings {
 }
 
 section.upcoming-meetings .section-heading {
-  text-align: center;
+  text-align: left;
 }
 
 section.upcoming-meetings .categories {

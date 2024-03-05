@@ -2191,15 +2191,11 @@ responsive
 
   #bg-video, #bg-video1, #bg-video2, #bg-video3 {
 
-    max-height: 25vh;  
-    max-width: 20vh;
-    /* max-width: 1vh;
-    min-height: 2vh;
-    max-height: 2vh;
-    object-fit: cover;
-    z-index: -1; 
-    display: none; */
-    margin-top:240px; 
+    /* max-height: 25vh;  
+    max-width: 20vh; */
+    max-height: 100%;  
+    max-width: 100%;
+    /* margin-top:240px;  */
     margin-left: 0px;
   } 
 
@@ -2280,9 +2276,6 @@ responsive
   .our-courses .owl-nav .owl-prev{
     display: none;
   }
-}
-
-@media (max-width: 1024px) {
 
   .main-banner .caption {
     top: 60%;

@@ -2203,18 +2203,12 @@ responsive
     display: none;
   }
 
-  .main-banner .caption {
-    top: 40% !important;
-  }
 
-  .section-heading {
-    padding-top: 125px;
-    margin-left:4vh;
-  }
 
   .section-heading h2{
     padding-top: 10px;
     margin-bottom: 25px;
+
   }
 
   .pagos {
@@ -2232,16 +2226,16 @@ responsive
 
 }
 
-@media screen and (max-width: 350px)  {
+@media (max-width: 350px)  {
   .main-banner {
     height: 90vh;
   }
 
-
-
   .main-banner .caption {
-    top: 30% !important;
+    top: 0px!important;
   }
+
+
 
   .logo img {
     width: 15px;
@@ -2277,10 +2271,6 @@ responsive
     display: none;
   }
 
-  .main-banner .caption {
-    top: 60%;
-  }
-
   .main-banner .caption h2 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -2292,7 +2282,11 @@ responsive
   }
 
   .services {
-    margin-top: -30px;
+    margin-top: 5px;
+  }
+
+  .main-banner {
+    height: 930px;
   }
 
   section.upcoming-meetings {
@@ -2340,6 +2334,11 @@ responsive
 
   #bg-video2, #bg-video3{
     display: none;
+  }
+
+  .owl-carousel .owl-item img {
+    padding-top: 120px;
+
   }
 
 }

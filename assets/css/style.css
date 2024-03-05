@@ -811,7 +811,7 @@ margin-left: 120vh;
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(28, 64, 82, 0.80); 
+    background-color: rgba(28, 64, 82, 0.20); 
     top: 0;
     left: 0;
     bottom: 0;

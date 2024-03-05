@@ -156,7 +156,7 @@ body {
 }
 
 .item-button {
-  padding-top: 35px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -1355,9 +1355,9 @@ section.apply-now .item p {
   }
 
   section.apply-now2 {
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     padding-top: 40px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     margin-top: 0px;
   }
 
@@ -2156,9 +2156,24 @@ responsive
     text-align: center;
   }
 
-  section.our-courses {
-    padding-top: 0px;
+  section.mini {
+    padding-top: 30px;
+    height: 30px;
   }
+
+  section.mini2 {
+    padding-top: 30px;
+    height: 30px;
+    margin-top: 40px;
+  }
+
+  section.mini3 {
+    /* padding-top: 30px;
+    height: 30px; */
+    margin-top: 140px;
+  }
+
+
 
 }
 
